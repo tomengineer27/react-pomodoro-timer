@@ -1,0 +1,75 @@
+* {
+  background-color: rgb(32, 45, 88);
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  background-color: rgb(31, 41, 71);
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  display: flex;
+  font-size: 50px;
+  background-color: rgb(31, 41, 71);
+}
+
+.time div {
+  background-color: rgb(31, 41, 71);
+  margin: 10px;
+}
+
+.buttons {
+  background-color: rgb(31, 41, 71);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.buttons button{
+  padding: 10px 30px;
+  border-radius: 5px; 
+  border: none;
+}
+
+.b1 {
+  background-color: rgba(0, 128, 0, 0.418);
+}
+
+.b1:hover {
+  background-color: rgba(0, 128, 0, 0.979);
+  cursor: pointer;
+  outline: 2px solid rgba(0, 128, 0, 0.979);
+}
+
+.b2 {
+  background-color: rgba(255, 0, 0, 0.418);
+}
+
+.b2:hover {
+  background-color: rgb(192, 0, 0);
+  cursor: pointer;
+  outline: 2px solid rgb(192, 0, 0);
+}
